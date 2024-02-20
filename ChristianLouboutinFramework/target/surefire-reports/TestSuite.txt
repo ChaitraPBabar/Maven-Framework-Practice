@@ -1,0 +1,866 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1576, Failures: 71, Errors: 0, Skipped: 0, Time elapsed: 5,212.556 s <<< FAILURE! - in TestSuite
+step84_SearchForProductSeleableStockInBO(src.in.valtech.cl.scenarios.TC_Scenario_03)  Time elapsed: 0.708 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="admin__form-field-control">...</div> is not clickable at point (620, 500). Other element would receive the click: <div data-role="spinner" data-component="product_listing.product_listing.product_columns" class="admin__data-grid-loading-mask" style="">...</div>
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb2904d38b4d1a3e09e41f1030d90028
+	at src.in.valtech.cl.scenarios.TC_Scenario_03.step84_SearchForProductSeleableStockInBO(TC_Scenario_03.java:642)
+
+step85_VerifyInitialSaleableStock(src.in.valtech.cl.scenarios.TC_Scenario_03)  Time elapsed: 2.238 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='3615482722158']/../following-sibling::td[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb2904d38b4d1a3e09e41f1030d90028
+*** Element info: {Using=xpath, value=//div[text()='3615482722158']/../following-sibling::td[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_03.step85_VerifyInitialSaleableStock(TC_Scenario_03.java:647)
+
+step82_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.075 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step82_VerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:711)
+
+step86_PickingOrderProcess(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 7.054 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (b2d6a7f6963566ac9f9c4b646b6988c7)] -> xpath: //button[@class='btn btn-info']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step86_PickingOrderProcess(TC_Scenario_02.java:767)
+
+step88_NaviagtedIntoMangetoAndVerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.915 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step88_NaviagtedIntoMangetoAndVerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:787)
+
+step92_NavigatedIntoWMSAndGetBarcodeFromPickingProcess(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 19.439 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341321')]/../td//a"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341321')]/../td//a}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step92_NavigatedIntoWMSAndGetBarcodeFromPickingProcess(TC_Scenario_02.java:830)
+
+step98_ClickOnValidateBtn(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 10.065 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Validate')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//button[contains(text(),'Validate')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step98_ClickOnValidateBtn(TC_Scenario_02.java:862)
+
+step99_ClickOnHomePopupBtn(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 8.766 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Home')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//button[contains(text(),'Home')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step99_ClickOnHomePopupBtn(TC_Scenario_02.java:867)
+
+step100_NavigatedIntoMangetoAndVerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 2.533 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step100_NavigatedIntoMangetoAndVerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:876)
+
+step105_NavigatedIntoMangetoAndVerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 17.117 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step105_NavigatedIntoMangetoAndVerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:924)
+
+step108_VerifiedOrderStatusInMyOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.168 s  <<< FAILURE!
+java.lang.AssertionError: expected [Order shipped] but found [Processing]
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step108_VerifiedOrderStatusInMyOrdersPage(TC_Scenario_02.java:958)
+
+step114_ClickOnRMAProductReturnBtn(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.594 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'11000341321')]/../a//span"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//*[contains(text(),'11000341321')]/../a//span}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step114_ClickOnRMAProductReturnBtn(TC_Scenario_02.java:1015)
+
+step115_CreatingRMAFromFO(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 6.15 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//input[contains(@name,'items')]/..//label)[1]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=(//input[contains(@name,'items')]/..//label)[1]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step115_CreatingRMAFromFO(TC_Scenario_02.java:1023)
+
+step117_ClickONFiltersAndEnterRMAID(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 5.916 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../preceding-sibling::td//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../preceding-sibling::td//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step117_ClickONFiltersAndEnterRMAID(TC_Scenario_02.java:1075)
+
+step107_CreatingRMAFromFO(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.196 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (1db9ebe95d133d23b026f51792017175)] -> xpath: //button[@class='fake-select date-selector']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step107_CreatingRMAFromFO(TC_Scenario_09.java:972)
+
+step121_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 3.983 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step121_VerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:1111)
+
+step109_ClickONFiltersAndEnterRMAID(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 6.174 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341326')]/../preceding-sibling::td//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341326')]/../preceding-sibling::td//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step109_ClickONFiltersAndEnterRMAID(TC_Scenario_09.java:1007)
+
+step124_VerifiedOrderStatusInMyOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.168 s  <<< FAILURE!
+java.lang.AssertionError: expected [Pending return] but found [Processing]
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step124_VerifiedOrderStatusInMyOrdersPage(TC_Scenario_02.java:1145)
+
+step113_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 4.163 s  <<< FAILURE!
+java.lang.AssertionError: expected [Shipped] but found [Processing RMA]
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step113_VerifiedOrderStatusInOrdersPage(TC_Scenario_09.java:1046)
+
+step127_EnterRMAID_SearchForOrderDetails_ClickOnReceptionButton(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 10.082 s  <<< FAILURE!
+java.lang.NullPointerException
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step127_EnterRMAID_SearchForOrderDetails_ClickOnReceptionButton(TC_Scenario_02.java:1164)
+
+step128_ExecuteRMAProcessinWMS(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 5.73 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='returncondition']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//select[@id='returncondition']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step128_ExecuteRMAProcessinWMS(TC_Scenario_02.java:1174)
+
+step116_EnterRMAID_SearchForOrderDetails_ClickOnReceptionButton(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 3.816 s  <<< FAILURE!
+java.lang.NullPointerException
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step116_EnterRMAID_SearchForOrderDetails_ClickOnReceptionButton(TC_Scenario_09.java:1067)
+
+step117_ExecuteRMAProcessinWMS(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 4.53 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='returncondition']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//select[@id='returncondition']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step117_ExecuteRMAProcessinWMS(TC_Scenario_09.java:1078)
+
+step132_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.635 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step132_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1196)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step132_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1196)
+
+step133_ClickonViewOptioninOrderGrid(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 7.149 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step133_ClickonViewOptioninOrderGrid(TC_Scenario_02.java:1211)
+
+step134_ClickOnReturnItems(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.654 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Return Items']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//span[text()='Return Items']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step134_ClickOnReturnItems(TC_Scenario_02.java:1216)
+
+step121_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.634 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step121_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step121_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1101)
+
+step122_ClickonViewOptioninOrderGrid(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 9.875 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341326')]/../following-sibling::td"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341326')]/../following-sibling::td}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step122_ClickonViewOptioninOrderGrid(TC_Scenario_09.java:1117)
+
+step123_ClickOnReturnItems(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 6.644 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Return Items']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//span[text()='Return Items']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step123_ClickOnReturnItems(TC_Scenario_09.java:1124)
+
+step137_ClickOnSaveButton(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.824 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@id,'save')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//button[contains(@id,'save')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step137_ClickOnSaveButton(TC_Scenario_02.java:1231)
+
+step138_VerifySuccessMsgForSavedRMARequest(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 1.082 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'message message-success success')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(@class,'message message-success success')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step138_VerifySuccessMsgForSavedRMARequest(TC_Scenario_02.java:1236)
+
+step140_VerifyOrderTotalAmtIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_08)  Time elapsed: 8.368 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341327')]//following-sibling::td[3]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa2ccc108631a59febde80d069b4421
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341327')]//following-sibling::td[3]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_08.step140_VerifyOrderTotalAmtIN_adyen(TC_Scenario_08.java:1345)
+
+step127_ClickOnSaveButton(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 20.072 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@id,'save')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//button[contains(@id,'save')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step127_ClickOnSaveButton(TC_Scenario_09.java:1148)
+
+step128_VerifySuccessMsgForSavedRMARequest(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 0.421 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'message message-success success')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(@class,'message message-success success')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step128_VerifySuccessMsgForSavedRMARequest(TC_Scenario_09.java:1154)
+
+step141_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 1.936 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step141_VerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:1252)
+
+step131_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 7.391 s  <<< FAILURE!
+java.lang.AssertionError: expected [Shipped] but found [Waiting for credit memo]
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step131_VerifiedOrderStatusInOrdersPage(TC_Scenario_09.java:1175)
+
+step144_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 2.959 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step144_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1278)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step144_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1278)
+
+step145_ClickonViewOptioninOrderGrid(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 1.855 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step145_ClickonViewOptioninOrderGrid(TC_Scenario_02.java:1287)
+
+step146_ClickOnRefundOrExchangeButton(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 1.711 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Refund / Exchange')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//span[contains(text(),'Refund / Exchange')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step146_ClickOnRefundOrExchangeButton(TC_Scenario_02.java:1293)
+
+step134_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.728 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step134_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1196)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step134_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1196)
+
+step147_ClickOnRefundButtonInNewMemoPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 4.326 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Refund']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//span[text()='Refund']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step147_ClickOnRefundButtonInNewMemoPage(TC_Scenario_02.java:1301)
+
+step135_ClickonViewOptioninOrderGrid(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 8.645 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341326')]/../following-sibling::td"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341326')]/../following-sibling::td}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step135_ClickonViewOptioninOrderGrid(TC_Scenario_09.java:1206)
+
+step148_VerifySuccessMsgForCreateCreditMemo(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 6.827 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'message message-success success')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(@class,'message message-success success')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step148_VerifySuccessMsgForCreateCreditMemo(TC_Scenario_02.java:1306)
+
+step136_ClickOnRefundOrExchangeButton(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 8.646 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Refund / Exchange')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//span[contains(text(),'Refund / Exchange')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step136_ClickOnRefundOrExchangeButton(TC_Scenario_09.java:1213)
+
+step137_ClickOnRefundButtonInNewMemoPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 3.449 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Refund']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//span[text()='Refund']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step137_ClickOnRefundButtonInNewMemoPage(TC_Scenario_09.java:1222)
+
+step138_VerifySuccessMsgForCreateCreditMemo(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 14.554 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'message message-success success')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(@class,'message message-success success')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step138_VerifySuccessMsgForCreateCreditMemo(TC_Scenario_09.java:1228)
+
+step151_VerifiedOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 13.401 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341321')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step151_VerifiedOrderStatusInOrdersPage(TC_Scenario_02.java:1329)
+
+step154_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 100.186 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step154_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1355)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2d6a7f6963566ac9f9c4b646b6988c7
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341321')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step154_VerifiedOrderStatusInReturnsPage(TC_Scenario_02.java:1355)
+
+step157_VerifiedOrderStatusInMyOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_02)  Time elapsed: 0.108 s  <<< FAILURE!
+java.lang.AssertionError: expected [Refund processed] but found [Processing]
+	at src.in.valtech.cl.scenarios.TC_Scenario_02.step157_VerifiedOrderStatusInMyOrdersPage(TC_Scenario_02.java:1383)
+
+step146_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 33.381 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step146_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1294)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=(//div[contains(text(),'11000341326')]/../following-sibling::td//div)[4]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step146_VerifiedOrderStatusInReturnsPage(TC_Scenario_09.java:1294)
+
+step147_ClickonOrderGrid(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 2.021 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'11000341326')]/../following-sibling::td"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[contains(text(),'11000341326')]/../following-sibling::td}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step147_ClickonOrderGrid(TC_Scenario_09.java:1304)
+
+step167_VerifiedOrderStatusInReturnsPage(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 7.381 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="admin__form-field-control">...</div> is not clickable at point (620, 624). Other element would receive the click: <div data-role="spinner" data-component="rma_grid_index.rma_grid_index.rma_columns" class="admin__data-grid-loading-mask" style="">...</div>
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step167_VerifiedOrderStatusInReturnsPage(TC_Scenario_04.java:1615)
+
+step174_NavigatedIntoAdyenAndClickOnPaymentTab(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 8.298 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='password']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//input[@name='password']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step174_NavigatedIntoAdyenAndClickOnPaymentTab(TC_Scenario_04.java:1662)
+
+step153_VerifyBillingAndShippingAddressInBO(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 4.497 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='order-billing_address_customer_address_id']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//select[@id='order-billing_address_customer_address_id']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step153_VerifyBillingAndShippingAddressInBO(TC_Scenario_09.java:1340)
+
+step175_VerifyOrderTotalAmtIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 4.554 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341325')]//following-sibling::td[3]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341325')]//following-sibling::td[3]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step175_VerifyOrderTotalAmtIN_adyen(TC_Scenario_04.java:1693)
+
+step154_ClickOnExchangePaymentRadioBtn(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 2.36 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Exchange Offline')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//label[contains(text(),'Exchange Offline')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step154_ClickOnExchangePaymentRadioBtn(TC_Scenario_09.java:1346)
+
+step155_Click_ShippingMethod_LinkForRefundoffline(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.924 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Get shipping methods and rates')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//span[contains(text(),'Get shipping methods and rates')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step155_Click_ShippingMethod_LinkForRefundoffline(TC_Scenario_09.java:1352)
+
+step156_Verify_ShippingMethods_RadioOptionForRefundofflineAndClickOnShippingMethod(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 3.479 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='s_method_owsh1_ups_11']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//input[@id='s_method_owsh1_ups_11']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step156_Verify_ShippingMethods_RadioOptionForRefundofflineAndClickOnShippingMethod(TC_Scenario_09.java:1358)
+
+step157_Verify_OrderTotals_ForRefundoffline(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.651 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Order Totals')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//span[contains(text(),'Order Totals')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step157_Verify_OrderTotals_ForRefundoffline(TC_Scenario_09.java:1365)
+
+step159_Click_OKFromAlertPopupForRefundoffline(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 0.045 s  <<< FAILURE!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step159_Click_OKFromAlertPopupForRefundoffline(TC_Scenario_09.java:1377)
+
+step160_VerifySuccessMsgForCreatedOrderForRMAOfflineRequest(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 1.002 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message message-success success']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//div[@class='message message-success success']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step160_VerifySuccessMsgForCreatedOrderForRMAOfflineRequest(TC_Scenario_09.java:1383)
+
+step162_RefreshAndVerifyOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 2.876 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='back']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+*** Element info: {Using=xpath, value=//button[@id='back']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step162_RefreshAndVerifyOrderStatusInOrdersPage(TC_Scenario_09.java:1395)
+
+step163_SwitchToFOTabAndClickOnMyAccountIcon(src.in.valtech.cl.scenarios.TC_Scenario_09)  Time elapsed: 3.253 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1418, -33)
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db9ebe95d133d23b026f51792017175
+	at src.in.valtech.cl.scenarios.TC_Scenario_09.step163_SwitchToFOTabAndClickOnMyAccountIcon(TC_Scenario_09.java:1423)
+
+step190_RefreshAndVerifyOrderStatusInOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 2.423 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'eturns')]/../following-sibling::td[contains(@class,'status')]//div"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//div[contains(text(),'eturns')]/../following-sibling::td[contains(@class,'status')]//div}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step190_RefreshAndVerifyOrderStatusInOrdersPage(TC_Scenario_04.java:1802)
+
+step193_VerifiedOrderStatusInMyOrdersPage(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 1.677 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'eturns')]/..//p[contains(@class, 'status')]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//*[contains(text(),'eturns')]/..//p[contains(@class, 'status')]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step193_VerifiedOrderStatusInMyOrdersPage(TC_Scenario_04.java:1831)
+
+step196_VerifyOrderTotalAmtIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 3.021 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341325')]//following-sibling::td[3]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341325')]//following-sibling::td[3]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step196_VerifyOrderTotalAmtIN_adyen(TC_Scenario_04.java:1858)
+
+step197_VerifyOrderRMAStatusIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_04)  Time elapsed: 3.013 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //td[contains(text(),'11000341325')]//following-sibling::td[5] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step197_VerifyOrderRMAStatusIN_adyen(TC_Scenario_04.java:1865)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341325')]//following-sibling::td[5]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cad653692e99c49614d0518f293eecb
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341325')]//following-sibling::td[5]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_04.step197_VerifyOrderRMAStatusIN_adyen(TC_Scenario_04.java:1865)
+
+step195_VerifyOrderTotalAmtIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_08)  Time elapsed: 6.536 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341327')]//following-sibling::td[3]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aa2ccc108631a59febde80d069b4421
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341327')]//following-sibling::td[3]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_08.step195_VerifyOrderTotalAmtIN_adyen(TC_Scenario_08.java:1799)
+
+step168_NavigatedIntoAdyenAndClickOnPaymentTab(src.in.valtech.cl.scenarios.TC_Scenario_01)  Time elapsed: 12.755 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='password']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ff4f6cd8652b306de1b02bc9eee5892
+*** Element info: {Using=xpath, value=//input[@name='password']}
+	at src.in.valtech.cl.scenarios.TC_Scenario_01.step168_NavigatedIntoAdyenAndClickOnPaymentTab(TC_Scenario_01.java:1606)
+
+step170_VerifyOrderTotalAmtIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_01)  Time elapsed: 14.296 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341323')]//following-sibling::td[3]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ff4f6cd8652b306de1b02bc9eee5892
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341323')]//following-sibling::td[3]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_01.step170_VerifyOrderTotalAmtIN_adyen(TC_Scenario_01.java:1642)
+
+step171_VerifyOrderRMAStatusIN_adyen(src.in.valtech.cl.scenarios.TC_Scenario_01)  Time elapsed: 66.255 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //td[contains(text(),'11000341323')]//following-sibling::td[5] (tried for 50 second(s) with 500 milliseconds interval)
+	at src.in.valtech.cl.scenarios.TC_Scenario_01.step171_VerifyOrderRMAStatusIN_adyen(TC_Scenario_01.java:1649)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'11000341323')]//following-sibling::td[5]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PF42S2RF', ip: '192.168.85.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\CHAITR~1.BAB\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ff4f6cd8652b306de1b02bc9eee5892
+*** Element info: {Using=xpath, value=//td[contains(text(),'11000341323')]//following-sibling::td[5]}
+	at src.in.valtech.cl.scenarios.TC_Scenario_01.step171_VerifyOrderRMAStatusIN_adyen(TC_Scenario_01.java:1649)
+
